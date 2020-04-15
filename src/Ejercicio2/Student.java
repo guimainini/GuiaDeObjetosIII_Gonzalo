@@ -39,12 +39,6 @@ public class Student extends Person {
         this.collegeCareer = collegeCareer;
     }
 
-    public static double sumar(Student mano){
-        double total =+ mano.getMonthlyFee();
-        return  total;
-    }
-
-
 
 
     @Override

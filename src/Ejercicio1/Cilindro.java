@@ -31,10 +31,29 @@ public class Cilindro extends Circulo{
 
 
     //V = Pi*(radio)^2 * altura
-    public double calcularVolumen(){
+
+//En el método calcularVolumen podes
+// devolver la cuenta -> return Math.PI * Math.pow(super.radio,2) * altura.*/
+   /*public double calcularVolumen(){
         double volumen = Math.PI * Math.pow(super.radio,2) * altura;
         return volumen;
+    }*/
+    //corregido
+   /* public double calcularVolumen(){
+        return Math.PI * Math.pow(super.radio,2) * altura;
+    }*/
+
+
+
+    public double calcularArea() {
+        return ((2 * Math.PI * super.getRadio() * this.altura) + (2 * super.calcularArea()));
     }
+
+    public double calcularVolumen() {
+        return super.calcularArea() * this.altura;
+    }
+
+
 
 
 }

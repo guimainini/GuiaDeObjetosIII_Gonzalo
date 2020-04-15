@@ -52,10 +52,10 @@ public class Main {
         System.out.println("-------------------------------------------------------------------------------");
         System.out.println("-------------------------------------------------------------------------------");
 
-        System.out.println("El area del cilindro(ya modificada) es : "+dosCilindro.calcularArea(dosCilindro.getAltura()));
+        System.out.println("El area del cilindro(ya modificada) es : "+dosCilindro.calcularArea());
 
 
-////
+
     }
 
 

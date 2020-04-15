@@ -45,8 +45,8 @@ public class Main3 {
                     circulo1.setColor(false);
                 }
 
-                System.out.println("El perimetor del circulo es : " + circulo1.perimetro()+"Su color es "+circulo1.isColor());
-                System.out.println("El Area del circulo es : " + circulo1.area()+"su color es "+circulo1.isColor());
+                System.out.println("El perimetor del circulo es : " + circulo1.calcularPerimetro()+"Su color es "+circulo1.isColor());
+                System.out.println("El Area del circulo es : " + circulo1.calcularArea()+"su color es "+circulo1.isColor());
             } else if (opcion == 'S') {
 
                 System.out.println(".:Usted desea ingresar un Rectagunlo o un cuadrado:.");
@@ -67,8 +67,8 @@ public class Main3 {
                         rectangulo1.setColor(false);
                     }
 
-                    System.out.println("El perimetro del rectangulo es :" + rectangulo1.perimetro()+" Y el color es "+rectangulo1.isColor());
-                    System.out.println("El area del rectangulo es : " + rectangulo1.area()+"Y el color es "+rectangulo1.isColor());
+                    System.out.println("El perimetro del rectangulo es :" + rectangulo1.calcularPerimetro()+" Y el color es "+rectangulo1.isColor());
+                    System.out.println("El area del rectangulo es : " + rectangulo1.calcularArea()+"Y el color es "+rectangulo1.isColor());
                 }else if (opcion2==1){
                     System.out.println("Ingrese un lado : ");
                     lado = entrada.nextDouble();
@@ -81,8 +81,8 @@ public class Main3 {
                         cuadrado1.setColor(false);
                     }
 
-                    System.out.println("El perimetro del Cuadrado es :" + cuadrado1.perimetro()+" Y el color es "+cuadrado1.isColor());
-                    System.out.println("El area del Cuadrado es : " + cuadrado1.area()+" Y el color es "+cuadrado1.isColor());
+                    System.out.println("El perimetro del Cuadrado es :" + cuadrado1.calcularPerimetro()+" Y el color es "+cuadrado1.isColor());
+                    System.out.println("El area del Cuadrado es : " + cuadrado1.calcularArea()+" Y el color es "+cuadrado1.isColor());
                 }
 
 

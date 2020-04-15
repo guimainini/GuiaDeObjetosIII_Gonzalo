@@ -11,7 +11,15 @@ almacenar las 8 instancias creadas anteriormente.
 la cantidad de miembros de staff.
 ● Recorrer el array y sumar el total de ingresos que percibe la
 institución por parte de la cuota de estudiantes.*/
+
+
+
+
 public class Main2 {
+    /*public static double sumar(double mano){
+        return (mano * 12);
+    }*/
+
     public static void main(String[] args) {
         Student s1 = new Student("28468194", "Guillermo", "Mainini", "guimainini@gmail.com", "Almafuerte 2204", 2019, 2000, "TUP");
         Student s2 = new Student("27777777", "Natalia", "Goñi", "naty@gmail.com", "Almafuerte 2204", 2019, 1800, "TUP");
@@ -22,6 +30,8 @@ public class Main2 {
         Staff f2 = new Staff("22222222", "Jose", "De Nasare2", "jose@gmail.com", "Tierra 2204", 52000, "noche");
         Staff f3 = new Staff("33333333", "Espitiru", "De Nasare3", "espiritu@gmail.com", "Mar 2204", 54000, "tarde");
         Staff f4 = new Staff("44444444", "Santo", "De Nasare4", "santo@gmail.com", "Montaña 2204", 59000, "tarde");
+
+
 
         int accountantStudent = 0, accountantStaff = 0;
         double total = 0;
@@ -73,6 +83,9 @@ public class Main2 {
         }
 
         System.out.println("El total es : "+total);
+
+        //prueba de cuanto ganan en el año
+        System.out.println(f1.salaryAnual());
 
     }
 }

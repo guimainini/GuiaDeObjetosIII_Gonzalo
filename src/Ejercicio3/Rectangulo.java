@@ -34,7 +34,7 @@ public class Rectangulo extends Formas {
 
     //b * h
     @Override
-    public double area() {
+    public double calcularArea() {
         double area = base * altura;
         return area;
     }
@@ -42,7 +42,7 @@ public class Rectangulo extends Formas {
 
     //2b + 2h
     @Override
-    public double perimetro() {
+    public double calcularPerimetro() {
         double perimetro = 2 * base + 2 * altura;
         return perimetro;
     }

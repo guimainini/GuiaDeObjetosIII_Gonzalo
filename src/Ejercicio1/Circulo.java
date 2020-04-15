@@ -31,16 +31,13 @@ public class Circulo {
         return area;
     }
 
-   /* public double areaCylinder (double height){  //area del cilindro
-        double areaCylinder = 2 * Math.PI * height + 2 * area();
-        return areaCylinder;
-    }*/
+
     //(2π×radius×height + 2×areaBase)
 
-    public double calcularArea(double altura){
+    /*public double calcularArea(double altura){
         double area = 2*Math.PI*altura + 2*calcularArea();
         return area;
-    }
+    }*/
 
     @Override
     public String toString() {

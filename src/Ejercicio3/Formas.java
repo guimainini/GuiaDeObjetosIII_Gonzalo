@@ -18,10 +18,14 @@ public abstract class Formas {
         this.color = color;
     }
 
-    public abstract double area();
-    public abstract double perimetro();
+    public abstract double calcularArea();
+    public abstract double calcularPerimetro();
 
-
-
+    @Override
+    public String toString() {
+        return "Formas{" +
+                "color=" + color +
+                '}';
+    }
 
 }

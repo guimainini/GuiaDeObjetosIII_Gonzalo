@@ -39,10 +39,9 @@ public class Staff extends Person{
                 ", turn='" + turn + '\'' +
                 '}';
     }
-
+    //corregido
     public double salaryAnual(){
-        double salaryAnual;
-        return salary = salary*12;
+        return (salary*12);
     }
 
 
